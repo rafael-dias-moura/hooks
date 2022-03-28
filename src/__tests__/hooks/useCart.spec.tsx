@@ -352,6 +352,7 @@ describe('useCart Hook', () => {
       () => {
         expect(mockedToastError).toHaveBeenCalledWith(
           'Erro na alteração de quantidade do produto'
+          
         );
       },
       { timeout: 200 }
